@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e9eef3;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.login {
+    width: 100%;
+    max-width: 380px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 8px;
+    color: #17365d;
+}
+
+header p {
+    margin-top: 0;
+    color: #666666;
+}
+
+form {
+    margin-top: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.mostrar-senha {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    color: white;
+    background-color: #17365d;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #24578f;
+}
+
+#mensagem {
+    min-height: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sucesso {
+    color: green;
+}
+
+.erro {
+    color: red;
+}
+
+footer {
+    margin-top: 25px;
+    color: #777777;
+    text-align: center;
+    font-size: 13px;
+}
