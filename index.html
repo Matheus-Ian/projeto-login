@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="login">
+            <header>
+                <h1>Área do Aluno</h1>
+                <p>Entre com seu e-mail e sua senha</p>
+            </header>
+
+            <form id="form-login">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Digite seu e-mail" required>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Digite sua senha" required>
+
+                <label class="mostrar-senha">
+                    <input type="checkbox" id="checkbox-senha">
+                    Mostrar senha
+                </label>
+
+                <button type="submit">Entrar</button>
+                <p id="mensagem"></p>
+            </form>
+
+            <footer>
+                <p>Projeto acadêmico - 2026</p>
+            </footer>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
